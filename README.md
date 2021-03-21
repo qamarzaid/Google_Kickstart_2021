@@ -1,1 +1,3 @@
-# Google_Kickstart_2021
+## Google Kickstart 2021- Round A
+### Problem: K-Goodness String
+```
