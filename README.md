@@ -36,3 +36,58 @@ ABAA
 Case #1: 0
 Case #2: 1
 ```
+##### Code C++:
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+#define pb push_back
+#define mk make_pair
+
+
+void solve(int j)
+{
+    int n, k, c = 0, nop = 0;
+    cin>>n>>k;
+    string s;
+    cin>>s;
+
+
+    for (int i = 0; i < n / 2; i++)
+    {
+        if (s[i] != s[(n - 1) - (i + 1) + 1])
+        {
+            c++;
+            // cout<<"c = "<<c<<" s[i] = "<<s[i]<<"\n";
+        }
+    }
+
+    if (c == k)
+    {
+        cout<<"Case "<<"#"<<j<<":"<<" "<<nop<<"\n";
+        return;
+    }
+    else
+    {
+        nop = abs(k - c);
+        cout<<"Case "<<"#"<<j<<":"<<" "<<nop<<"\n";
+        return;
+
+    }
+}
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    int t;
+    int j = 0;
+    cin>>t;
+    while (t-- > 0)
+    {
+        j++;
+        solve(j);
+    }
+}
+```
