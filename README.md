@@ -23,4 +23,16 @@ of length N, consisting of uppercase letters.
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is
 the minimum number of operations required to transform the given string S into a string with goodness score equal to K.
 ```
-
+##### Sample Input
+```
+2
+5 1
+ABCAA
+4 2
+ABAA
+```
+##### Sample Output
+```
+Case #1: 0
+Case #2: 1
+```
