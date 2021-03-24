@@ -125,14 +125,8 @@ def display(n,k,listS,t):
 	else:
 		op=op+(k-c)
 		print("Case #",t+1,": ",op)
-	# 	for i in (l):
-	# 		#print(i)
-	# 		z=ord(listS[i])#=chr(ord((listS[i])+1))
-	# 		z=z+1
-	# 		listS[i]=chr(z)
-	# 		op=op+1
-	# 		#print(listS, "after")
-	# return op,listS
+	
+	return op,listS
 			
 
 
