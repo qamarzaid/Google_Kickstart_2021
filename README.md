@@ -98,18 +98,7 @@ int main()
 
 
 
-l=int(input())
-r=int(input())
-list=[]
-for i in range (l,r+1):
-	list.append(i)
-odd=list[1::2]
-even=list[0::2]
-#print(odd)
-#print(even)
-for i in (odd):
-	if i%2!=0
-'''
+
 def solve(N,K,listS):
 	count=0
 	list=[]
