@@ -103,7 +103,7 @@ def solve(N,K,listS):
 	count=0
 	list=[]
 	
-	#list2=[]
+	list2=[]
 	z=int(N/2)+1
 	#print(z)
 	for i in range(2,z):
@@ -126,7 +126,7 @@ def display(n,k,listS,t):
 		op=op+(k-c)
 		print("Case #",t+1,": ",op)
 	
-	return op,listS
+	
 			
 
 
@@ -137,20 +137,10 @@ while(t>0):
 	s=input()
 	S=s.upper()
 	listS=[]
-	# for i in range(len(S)):
-	# 	listS.append(S[i])
-	# #print(S)
-	# #print(n,k) 
-	# t=t-1
-	# J,D=display(n,k,listS,t)
-	# if J==k:
-	# 	print("Case #",t+1,": ",op)
-	# else:
-	# 	S,I=solve(n,k,listS)
-	# 	if S==k:
-	# 		print("Case #",t+1,": ",op)
-
-
-	# #display(t)
+	 for i in range(len(S)):
+	 	listS.append(S[i])
+	
+	 display(n,k,listS,t)
+	
 	
 ```
