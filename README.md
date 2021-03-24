@@ -119,11 +119,7 @@ def solve(N,K,listS):
 def display(n,k,listS,t):
 	op=0
 	c,l=solve(n,k,listS)
-	#print(l)
-	#listS=[]
-	#for i in range(len(S)):
-	#	listS.append(S[i])
-	#print(listS,"first")
+	
 	if c==k:
 		print("Case #",t+1,": ",op)
 	else:
