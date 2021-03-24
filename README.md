@@ -95,23 +95,7 @@ int main()
 
 ###### Code Python:
 ```python
-'''
-T=int(input())
-for i in range(0,T):
-	inpt=input()
-	l=inpt.split()
-	#print(l)
-	N=int(l[0]) #10
-	K=int(l[1])#5
-	S=int(l[2])
 
-	c1=(N-K)+N #5+10=15
-	c2=(K+(K-S)+(N-S)) # 5+(5-2)+(10-2)=5+3+8=16
-
-	if c1>=c2:
-		print("Case #",i+1,": ",c2)
-	else:
-		print("Case #",i+1,": ",c1)
 
 
 l=int(input())
