@@ -98,7 +98,7 @@ int main()
 
 
 
-
+#Function for solving the problem
 def solve(N,K,listS):
 	count=0
 	list=[]
@@ -112,10 +112,8 @@ def solve(N,K,listS):
 		else:
 			list.append(i)
 	return count,list
-			#list2.append((N-i)+1)
-	#print(count,list),
-	
-	
+			
+# function for displaying the result		
 def display(n,k,listS,t):
 	op=0
 	c,l=solve(n,k,listS)
@@ -125,12 +123,8 @@ def display(n,k,listS,t):
 	else:
 		op=op+(k-c)
 		print("Case #",t+1,": ",op)
-	
-	
-			
-
-
-
+		
+# function for taking the input
 t=int(input())
 while(t>0):
 	n,k=map(int,input("enter").split())
