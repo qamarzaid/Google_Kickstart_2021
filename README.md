@@ -92,3 +92,5 @@ int main()
 }
 ```
 [Code Demo Link](https://replit.com/@ZaidQamar/k-goodness-string#main.cpp)
+
+###### Code Python:
