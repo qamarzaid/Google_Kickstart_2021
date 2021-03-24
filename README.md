@@ -94,3 +94,100 @@ int main()
 [Code Demo Link](https://replit.com/@ZaidQamar/k-goodness-string#main.cpp)
 
 ###### Code Python:
+```python
+'''
+T=int(input())
+for i in range(0,T):
+	inpt=input()
+	l=inpt.split()
+	#print(l)
+	N=int(l[0]) #10
+	K=int(l[1])#5
+	S=int(l[2])
+
+	c1=(N-K)+N #5+10=15
+	c2=(K+(K-S)+(N-S)) # 5+(5-2)+(10-2)=5+3+8=16
+
+	if c1>=c2:
+		print("Case #",i+1,": ",c2)
+	else:
+		print("Case #",i+1,": ",c1)
+
+
+l=int(input())
+r=int(input())
+list=[]
+for i in range (l,r+1):
+	list.append(i)
+odd=list[1::2]
+even=list[0::2]
+#print(odd)
+#print(even)
+for i in (odd):
+	if i%2!=0
+'''
+def solve(N,K,listS):
+	count=0
+	list=[]
+	
+	#list2=[]
+	z=int(N/2)+1
+	#print(z)
+	for i in range(2,z):
+		if((((N-i)+1)<N) and listS[i]!=listS[(N-i)+1]):
+			count=count+1
+		else:
+			list.append(i)
+	return count,list
+			#list2.append((N-i)+1)
+	#print(count,list),
+	
+	
+def display(n,k,listS,t):
+	op=0
+	c,l=solve(n,k,listS)
+	#print(l)
+	#listS=[]
+	#for i in range(len(S)):
+	#	listS.append(S[i])
+	#print(listS,"first")
+	if c==k:
+		print("Case #",t+1,": ",op)
+	else:
+		op=op+(k-c)
+		print("Case #",t+1,": ",op)
+	# 	for i in (l):
+	# 		#print(i)
+	# 		z=ord(listS[i])#=chr(ord((listS[i])+1))
+	# 		z=z+1
+	# 		listS[i]=chr(z)
+	# 		op=op+1
+	# 		#print(listS, "after")
+	# return op,listS
+			
+
+
+
+t=int(input())
+while(t>0):
+	n,k=map(int,input("enter").split())
+	s=input()
+	S=s.upper()
+	listS=[]
+	# for i in range(len(S)):
+	# 	listS.append(S[i])
+	# #print(S)
+	# #print(n,k) 
+	# t=t-1
+	# J,D=display(n,k,listS,t)
+	# if J==k:
+	# 	print("Case #",t+1,": ",op)
+	# else:
+	# 	S,I=solve(n,k,listS)
+	# 	if S==k:
+	# 		print("Case #",t+1,": ",op)
+
+
+	# #display(t)
+	
+```
