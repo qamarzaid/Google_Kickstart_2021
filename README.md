@@ -136,6 +136,6 @@ while(t>0):
 	 	listS.append(S[i])
 	
 	 display(n,k,listS,t)
-	
+	###
 	
 ```
