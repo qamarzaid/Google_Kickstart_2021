@@ -2,7 +2,7 @@
 ### Problem: K-Goodness String
 
 ##### Problem:
-``````
+```
 Charles defines the goodness score of a string as the number of indices i such that Si≠SN−i+1 where 1≤i≤N/2. 
 For example, the string CABABC has a goodness score of 2 since S2≠S5 and S3≠S4.
 
@@ -99,7 +99,7 @@ int main()
 
 
 
-#Function for solving the problem
+###Function for solving the problem
 def solve(N,K,listS):
 	count=0
 	list=[]
