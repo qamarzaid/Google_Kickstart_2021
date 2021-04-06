@@ -1,4 +1,4 @@
-1234
+12345
 ## Google Kickstart 2021- Round A
 ### Problem: K-Goodness String
 
